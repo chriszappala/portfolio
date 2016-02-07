@@ -1,0 +1,305 @@
+
+/* Portfolio *************************************************************** */
+
+.portfolio img { border-bottom: white 1px solid}
+.portfolio hr { border-top:1px solid #ccc; width: 98%; margin: 0, auto}
+.portfolio article { float: left; width: 31%; margin-bottom: 10px; padding: 0 1%; position: relative; overflow: hidden}
+.da-thumbs span { position: relative; display: block; line-height: 1em; top:40%; text-align: center}
+.da-thumbs article a,
+.da-thumbs article a img { display: block; position: relative; margin: 0 auto; max-width: 300px}
+.da-thumbs article a { overflow: hidden}
+.da-thumbs article a h6 {background: white; color: black; font-weight: normal; margin: 0; padding: 5px 0; border-bottom: 1px solid #ccc; text-align:center; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;}
+.da-thumbs article a div { position: absolute; width: 100%; height: 100%; opacity: .8; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;}
+.da-thumbs article a div.da-animate { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+.da-thumbs article a div i {font-size: 1.2em}
+
+/* Initial state classes: *************************************************************** */
+
+.da-slideFromTop { left: 0px; top: -100%; }
+.da-slideFromBottom { left: 0px; top: 100%; }
+.da-slideFromLeft { top: 0px; left: -100%; }
+.da-slideFromRight { top: 0px; left: 100%; }
+
+
+/* Final state classes: *************************************************************** */
+
+.da-slideTop { top: 0px }
+.da-slideLeft { left: 0px }
+.da-thumbs li a div span { display: block; padding: 10px 0; margin: 40px 20px 20px 20px; text-transform: uppercase; font-weight: normal; color: rgba(255,255,255,0.9); text-shadow: 1px 1px 1px rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.5); box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3); }
+
+
+
+
+
+.seamap{
+	width:100%;
+	float:left;
+	margin-bottom:5%;
+	}
+
+.contacter{
+	float:left;
+	border:1px solid #d2d2d2;
+	background-color:#fff;
+	width:30%;
+	padding:1%;
+	margin-left:5%;
+	 word-break:break-all;
+	 vetical-align:middle;
+	}
+
+.contacter1 {
+
+	
+	}
+.contacter1 img{
+	margin-right:5%;
+	vetical-align:middle;
+		
+
+	}
+	
+form{
+	width:65%;
+	float:left;
+	margin-bottom: 20px
+	}
+input{
+	width:100%;
+	}
+
+textarea{
+	width:100%;
+	}
+
+.selectcur1{
+	font-weight:bold;
+	}
+
+.skilltst{
+	float:left;
+	width: 180px;
+	padding:20px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-bottom:50px;
+	list-style:none;
+	font-size:20px;
+	background-color:#FFF;
+	border:1px solid #d2d2d2;
+	vertical-align:center;
+	text-align:center;
+	}
+
+
+
+.easyPieChart { position: relative; text-align: center;}
+.easyPieChart canvas { position: absolute; top: 0; left: 0;}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body, h4, h5, h6 {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1, h2{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h3{
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.lead {
+	font-size: 18px;
+}
+
+.contact-header {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	background: url(../img/linedpaper.png) repeat;
+	font-weight:regular;
+}
+
+
+.about-header {
+	padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 100px;
+	background: url(../img/seattle.jpg) no-repeat top center;
+	background-size: cover;
+	font-weight:regular;
+}
+
+.intro-header {
+	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+	color: #f8f8f8;
+	background: url(../img/intro-bg.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.intro-message {
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+	margin: 0;
+	font-size: 5em;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message > h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 767px) {
+	.contacter{
+	float:left;
+	border:1px solid #d2d2d2;
+	background-color:#fff;
+	width:100%;
+	padding:3%;
+	margin-left:0%;
+	 word-break:break-all;
+	 vetical-align:middle;
+	}
+
+.contacter1 {
+
+	}
+.contacter1 img{
+	margin-right:5%;
+	vetical-align:middle;
+
+	}
+	
+form{
+	width:100%;
+	float:left;
+	margin-bottom: 20px
+	}
+	
+	
+	.intro-message {
+		padding-bottom: 15%;
+	}
+
+	.intro-message > h1 {
+		font-size: 3em;
+	}
+
+	ul.intro-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.intro-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}
+
+	.intro-divider {
+		width: 100%;
+	}
+}
+
+.network-name {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.content-section-a {
+	background-color: #FFF;
+	padding: 50px 0;
+}
+
+.content-section-b {
+	background-color:#fff;
+	padding: 50px 0px 80px 0px;
+}
+
+.content-section-g {
+	background-color:#eeeeee;
+	padding: 50px 0px 80px 0px;
+	border-bottom:2px solid #d2d2d2;
+}
+
+
+.section-heading {
+	margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 200px;
+	float: left;
+}
+
+.banner {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(../img/banner-bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+.banner h2 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 3em;
+}
+
+.banner ul {
+	margin-bottom: 0;
+}
+
+.banner-social-buttons {
+	float: right;
+	margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+	ul.banner-social-buttons {
+		float: left;
+		margin-top: 15px;
+	}	
+}
+
+@media (max-width: 767px) {
+	.banner h2 {
+		margin: 0;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+		font-size: 3em;
+	}
+
+	ul.banner-social-buttons > li {
+		display: block;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	ul.banner-social-buttons > li:last-child {
+		margin-bottom: 0;
+	}	
+}
+
+footer {
+	background-color: #ffffff;
+	padding: 20px 0;
+}
+
+p.copyright {
+	margin: 15px 0 0;
+}

@@ -1,0 +1,91 @@
+Blue Host Login information: 
+login: mycascadia.org
+password: @1CascadiaNow
+domains to use: mycascadia.org or cncities.org
+
+
+Site Name or Title
+Join Cascadia Now!
+
+Admin Username
+cmzappala@gmail.com
+
+Admin Password
+ZK92p1tdIsOTb04
+
+
+    URL: http://mycascadia.org/
+    Admin URL: http://mycascadia.org//wp-admin
+    Username: cmzappala@gmail.com
+    Password: ZK92p1tdIsOTb04
+
+
+Add the following to your wp-config.php file in /home/cascadj0/public_html/ above the line reading /* That’s all, stop editing! Happy blogging. */:
+
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+define('DOMAIN_CURRENT_SITE', 'mycascadia.org');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+
+
+Add the following to your .htaccess file in /home/cascadj0/public_html/, replacing other WordPress rules:
+
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+
+# add a trailing slash to /wp-admin
+RewriteRule ^wp-admin$ wp-admin/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^(wp-(content|admin|includes).*) $1 [L]
+RewriteRule ^(.*\.php)$ $1 [L]
+RewriteRule . index.php [L]
+
+
+
+Blue Host Login information: 
+login: mycascadia.org
+password: @1CascadiaNow
+domains to use: mycascadia.org or cncities.org
+
+http://mycascadia.org/
+
+
+
+
+Features for Site:
+
+    Blog
+    Calendar
+    Photo Gallery (? - with stock images to begin?)
+    Imager Slider with Page Links on Chapter Page
+    Resource Kit (step by step - starting a chapter, your new website etc)
+    Lets leave out any forum for now.
+
+Basic Gist - 
+
+    Multisite Wordpress (seattle.cncities.org)
+    Lots of chapter pages in the future, one central main 'front page'
+    Ability to suck RSS/Calendar/Blogs etc to primary front page, and also maybe which we could embed in our CN website.
+    Feel free to loosely clone the Cascadianow page. Close counts.
+
+Blue Host Login information: 
+login: mycascadia.org
+password: @1CascadiaNow
+domains to use: mycascadia.org or cncities.org
+
+Seattle subdomain
+username: seattle.chapter.admin
+pw: cascadiacitiesseattle
+email: cascadiacities.seattle@gmail.com 
+flickr login: cascadiacities
+flickr pw: Seattlecity1
+
+
+[ai1ec]
+[ai1ec view="monthly"]
