@@ -1,0 +1,27 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+ehthumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# ignore grunt stuff
+Gruntfile.js
+package.json
+README.md
+
+# Application specific files
+venv
+node_modules/
+.sass-cache
+sass/
+css/*.map
+
+# ignore jekyll site
+_site/
